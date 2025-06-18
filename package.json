@@ -12,5 +12,16 @@
    "devDependencies": {
       "electron": "^33.0.2",
       "electron-builder": "^25.1.8"
+   },
+   "build": {
+      "appId": "com.elsawin.schema.synthetic",
+      "productName": "Elsa Win",
+      "win": {
+         "target": "nsis",
+         "icon": "icon.png"
+      },
+      "directories": {
+         "buildResources": "./"
+      }
    }
 }

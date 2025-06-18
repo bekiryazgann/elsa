@@ -105,7 +105,7 @@ function createWindow() {
       const divs = document.querySelectorAll(".winPanel div")
       divs.forEach(div => {
         if(div.textContent === 'https://superetka.com/elsa'){
-            div.innerHTML = "<a target='_blank' href='https://istanbuldiagnostic.com' translate='no'>İstanbul Diagnostic</a>"
+            div.innerHTML = ""
             console.log(div)
         }
       })
