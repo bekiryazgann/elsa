@@ -1,0 +1,16 @@
+{
+   "name": "elsa-win-schema-synthetic-program",
+   "description": "Elsa Win Şema Sente Programı",
+   "version": "1.0.0",
+   "main": "index.js",
+   "scripts": {
+      "start": "electron .",
+      "build": "electron-builder"
+   },
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "electron": "^33.0.2",
+      "electron-builder": "^25.1.8"
+   }
+}
